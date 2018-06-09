@@ -14,5 +14,13 @@
     <scope>test</scope>
 </dependency>
  </dependencies>
-  
+ 
+  <repositories>
+    <repository>
+      <id>my-repo1</id>
+      <name>demo3</name>
+      <url>https://github.com/nsingareddy123/demo3</url>
+    </repository>
+  </repositories>
+     
 </project>

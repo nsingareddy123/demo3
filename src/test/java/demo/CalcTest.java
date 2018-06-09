@@ -3,9 +3,10 @@ package demo;
 import static org.junit.Assert.*;
 import org.junit.Test;
 
-public class ClacTest {
+public class CalcTest {
  private Calc c1;
-	@Test
+	
+ 	@Test
 	public void testAdd() {
 		int i = c1.add("10","20");
 		assertTrue("add with 10,20", i==30);
