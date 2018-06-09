@@ -8,13 +8,13 @@ public class CalcTest {
 	
  	@Test
 	public void testAdd() {
-		int i = c1.add("10","20");
+		int i = c1.add(10,20);
 		assertTrue("add with 10,20", i==30);
 	}
 	@Test
 	public void testDivide() {
 		int i = c1.divide("100","20");
-		assertTrue("divide with 100, 20", true);
+		assertTrue("divide with 100, 20", i==5);
 	}
 	
 	@Test
